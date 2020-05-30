@@ -1,0 +1,254 @@
+/*推荐产品CSS样式*/
+.hot-goods-container-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 10px auto 13px;
+}
+
+.hot-goods-container-goodscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.hot-goods-container-goodscontainer > div {
+    flex-grow: 1; /* 子元素按1/n的比例进行拉伸 */
+    background-color: #fff;
+    text-align: center;
+    color: #5D6FFF;
+    font-size: 30px;
+    line-height: 1;
+    border: 1px solid #e6e6e6;
+}
+
+.goodsimg {
+    width: 360px;
+    height: 250px;
+}
+
+.hot-goods-container-goodscontainer > div:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.hot-goods-container-goodscontainer > div:nth-of-type(n+7) {
+    margin-bottom: 0;
+}
+
+.goods-item-title {
+    font-size: 20px;
+}
+
+.goods-item-price {
+    font-size: 18px;
+}
+
+
+/*推荐商家CSS样式*/
+.good-goodsShop-title {
+    font-size: 35px;
+    /*font-weight: bold;*/
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 10px auto 13px;
+    height: auto;
+}
+
+.good-goodsShop-title > span {
+    font-size: 25px;
+}
+
+/*图片样式*/
+.good-goodsShop {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.good-goodsShop > div {
+    flex-grow: 1; /* 子元素按1/n的比例进行拉伸 */
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    border: 1px solid #e6e6e6;
+}
+
+.good-goodsShop > div:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.good-goodsShop > div:nth-of-type(n+6) {
+    margin-bottom: 0;
+}
+
+/*店铺列表*/
+.good-goodshops-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 10px auto 13px;
+}
+
+.good-goodshops-title > span {
+    font-size: 25px;
+}
+
+/*图片样式*/
+.good-goodshops {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.good-goodshops > div {
+    flex-grow: 1; /* 子元素按1/n的比例进行拉伸 */
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    border: 1px solid #e6e6e6;
+}
+
+.good-goodshops > div:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.good-goodshops > div:nth-of-type(n+7) {
+    margin-bottom: 0;
+}
+
+/*栏目管理，卡片*/
+.image {
+    width: 100%;
+    display: block;
+    height: 75%;
+}
+
+/*抽屉*/
+.image1 {
+    width: 100%;
+    display: block;
+    height: 60%;
+}
+
+/*company/checklist    */
+.checklist_bigDiv {
+    width: 800px;
+    min-width: 800px;
+    border: 0px solid black;
+    overflow: auto;
+    overflow-x: hidden;
+
+     /*overflow-x:auto;*/
+
+
+}
+
+.checklist_top1 {
+
+    min-width: 400px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+/*企业基本信息*/
+.checklist_top2_left {
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 46%;
+
+    background-color: #ffffff;
+    float: left;
+    border: 0px solid green;
+    height: auto;
+
+}
+
+.checklist_top2_right {
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 46%;
+    background-color: #ffffff;
+    float: left;
+    border: 0px solid green;
+    height: auto;
+
+
+}
+
+.checklist_top2_left_row {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 5%;
+    font-size: 15px;
+    border: 0px solid black;
+    width: 94%
+}
+
+.checklist_top2_left_row_title {
+    margin-right: 5%;
+    height: 90%;
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    border: 0px solid black;
+}
+
+.checklist_top2_left_rowPic {
+    border: 0px solid black;
+    height: 150px;
+    margin-left: 5%;
+    width: 94%;
+}
+
+/*company/lists    */
+
+
+.lists_top1 {
+    text-align: center;
+    float: left;
+    width: 88%;
+    border: 0px solid black;
+}
+.lists_top2{
+    border: 0px solid black;
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+}
+.lists_top2_left{
+    border: 0px solid black;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 200px;
+    float: left;
+    height: 300px;
+}
+.lists_top2_right{
+    border: 0px solid black;
+    margin-top: 5%;
+    width: 50%;
+    height: 300px;
+    margin-left: 2%;
+    float: left;
+}
+.lists_top2_right_row{
+    border: 0px solid black;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin-top: 1%;
+}
+.lists_pic {
+    height: 200px;
+    margin-left: 5%;
+    width: 85%;
+    margin-top: 5%;
+    float: left;
+}
